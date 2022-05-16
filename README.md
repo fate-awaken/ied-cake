@@ -6,7 +6,6 @@
 IedCake is a shop that sells various kinds of cakes to enliven the Eid atmosphere. There are a lot of cakes which we sell for everyone.
 
 ## Product
-___
 there are several product:
 - Nastar
 - Castangle
@@ -16,7 +15,6 @@ there are several product:
 - Lidah Kucing
 
 ## Team Members
-___
 - Solahudin Al Malibari **10210090**
 - Dias Pratama Yasir **10210069**
 - Aditya Ramadhan **10210061**
