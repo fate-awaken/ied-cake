@@ -1,4 +1,4 @@
-![IedCake Logo](images/icon/ied_cake_logo.webp)
+[<img src="images/icon/ied_cake_logo.png" align="center" width="150"/>](ied_cake_logo.png)
 # Ied Cake [![](https://img.shields.io/badge/code%20style-standart-brightgreen)](https://google.github.io/styleguide/) ![](https://img.shields.io/badge/status-uwu-brightgreen)
 
 > IedCake's static website
