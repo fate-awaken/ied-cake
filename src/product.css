@@ -26,10 +26,6 @@ body {
   float: left;
 }
 
-.navBar span img{
-  width: 30px;
-}
-
 .navBar a {
   float: right;
   color: white;
