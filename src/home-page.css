@@ -40,23 +40,37 @@ header {
   background-color: #ff7070;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
+  line-height: 25px;
   overflow: hidden;
   padding: 15px;
   top: 0;
 }
 
 .nav-bar a {
-  color: whitesmoke;
   float: right;
   font-size: 20px;
   font-weight: 500;
   margin-right: 15px;
   padding: 0 5px 0 5px;
   text-decoration: none;
+  transition: 0.2s;
 }
 
-.nav-bar span {
+.nav-bar-left span {
   float: left;
+}
+
+.nav-bar-left span a {
+  color: white;
+  font-size: 25px;
+}
+
+.nav-bar-right a {
+  color: rgba(245, 245, 245, 0.699);
+}
+
+.nav-bar-right a:hover {
+  color: white;
 }
 
 .ramadhan {
