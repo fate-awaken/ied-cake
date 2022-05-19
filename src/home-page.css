@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', monospace, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+
+}
+
+p {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(90deg, #fff 60%, #ff707067 40%);
+  padding: 20px;
+}
+
+.gift {
+  position: relative;
+  top: 35px;
+  left: 200px;
+  z-index: 2;
+}
+
+.nav-bar {
+  background-color: #ff7070;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
+  overflow: hidden;
+  padding: 15px;
+  top: 0;
+}
+
+.nav-bar a {
+  color: whitesmoke;
+  float: right;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 15px;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+}
+
+.nav-bar span {
+  float: left;
+}
+
+.ramadhan {
+  position: relative;
+  top: 15px;
+  left: -180px;
+  z-index: 3;
+}
+
+.shadow {
+  opacity: 0.6;
+  position: relative;
+  top: -200px;
+  left: 0px;
+}
+
+.sharing {
+  position: relative;
+  top: -125px;
+  left: 350px;
+}
+
+.top-content {
+  text-align: left;
+}
+
+.top-content h1 {
+  letter-spacing: 3px;
+}
+
+.top-text p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.top-content .ied-cake {
+  background: linear-gradient(120deg, #ff7070 20%, #fff 80%);
+}
+
+.top-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 700px;
+  padding: 80px 0 10px 0;
+}
+
+.top-wrapper img {
+  border-radius: 20%;
+}
