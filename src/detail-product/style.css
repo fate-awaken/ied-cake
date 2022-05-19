@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Poppins:wght@200&display=swap%27');
 
 * {
   box-sizing: border-box;
@@ -7,16 +7,21 @@
 body {
   font-family: 'Montserrat', monospace, sans-serif;
   color: #F5756B;
+  margin: 0 auto;
 }
 
 .container {
-  width: 1107px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
+}
+
+header {
+  padding: 20px;
 }
 
 .nav-bar {
-  background-color: #F5756B;
+  background-color: #ff7070;
   padding: 15px;
   overflow: hidden;
   top: 0;
@@ -30,11 +35,17 @@ body {
 
 .nav-bar a {
   float: right;
-  color: white;
+  color: rgba(245, 245, 245, 0.699);
   text-decoration: none;
   font-size: 20px;
+  font-weight: 500;
   margin-right: 15px;
   padding: 0 5px 0 5px;
+  transition: 0.5s;
+}
+
+.nav-bar a:hover {
+  color: white;
 }
 
 .product {
@@ -44,29 +55,34 @@ body {
 
 .product-img {
   float: left;
-  width: 350px;
+  width: 450px;
   text-align: center;
+  margin-left: 100px;
 }
 
 .product-img img {
   width: 450px;
   border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 .product-img p {
   background-color: #F5756B;
   border-radius: 50px;
   padding: 10px;
+  width: 300px;
   color: white;
-  margin-left: 120px;
   font-size: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .product-desc {
-  margin-left: 70px;
+  float: right;
   display: inline-block;
   width: 370px;
   margin-top: -10px;
+  margin-right: 100px;
 }
 
 .product-desc h2 {
