@@ -26,11 +26,17 @@ header {
   overflow: hidden;
   top: 0;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px gray;
+  box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
+  line-height: 25px;
 }
 
 .nav-bar span{
   float: left;
+}
+
+.nav-bar span a {
+  color: whitesmoke;
+  font-size: 25px;
 }
 
 .nav-bar a {
@@ -61,16 +67,16 @@ header {
 }
 
 .product-img img {
-  width: 450px;
+  width: 420px;
   border-radius: 20px;
-  padding-bottom: 10px;
+  box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
 }
 
 .product-img p {
   background-color: #F5756B;
   border-radius: 50px;
   padding: 10px;
-  width: 300px;
+  width: 250px;
   color: white;
   font-size: 20px;
   margin: 0 auto;
@@ -82,16 +88,16 @@ header {
   display: inline-block;
   width: 370px;
   margin-top: -10px;
-  margin-right: 100px;
+  margin-right: 120px;
 }
 
 .product-desc h2 {
   text-align: center;
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .product-desc p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
 
