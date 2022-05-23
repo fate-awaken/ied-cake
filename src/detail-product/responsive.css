@@ -3,4 +3,31 @@
     width: 350px;
     margin: 0 auto;
   }
+
+  .product {
+    padding: 0;
+  }
+
+  .product-img {
+    margin: 0 auto;
+    width: 290px;
+  }
+
+  .product-img img {
+    width: 280px;
+  }
+
+  .product-desc {
+    float: none;
+    margin: 0 auto;
+    width: 290px;
+  }
+
+  .product-desc p {
+    font-size: 16px;
+  }
+
+  .product-desc span {
+    font-size: 20px;
+  }
 }
