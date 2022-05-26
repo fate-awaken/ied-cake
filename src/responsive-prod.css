@@ -1,0 +1,21 @@
+@media (max-width: 640px) {
+  footer {
+    height: 285px;
+  }
+
+  .footer-logo img {
+    width: 150px;
+  }
+
+  .footer-list li {
+    font-size: 18px;
+  }
+
+  .footer-left {
+    margin-top: 30px;
+  }
+
+  .footer-right {
+    margin-top: 10px;
+  }
+}
