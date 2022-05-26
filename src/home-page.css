@@ -11,11 +11,14 @@ body {
 
 h1 {
   font-size: 60px;
-
 }
 
-p {
+a {
   text-decoration: none;
+}
+
+.clear {
+  clear: left;
 }
 
 .container {
@@ -27,6 +30,47 @@ p {
 header {
   background: linear-gradient(90deg, #fff 60%, #ff707067 40%);
   padding: 20px;
+}
+
+main {
+  height: 500px;
+}
+
+footer {
+  background-color: #ff7070;
+  font-size: 20px;
+  font-weight: 500;
+  height: 380px;
+  padding: 20px 0 30px 0;
+}
+
+.footer-left,
+.footer-right {
+  display: inline-block;
+}
+
+.footer-left {
+  float: left;
+  margin-top: 85px;
+}
+
+.footer-right {
+  float: right;
+  margin-top: 60px;
+}
+
+.footer-right a {
+  color: rgba(245, 245, 245, 0.699);
+}
+
+.footer-right ul {
+  line-height: 50px;
+  list-style-type: none;
+  text-align: right;
+}
+
+.footer-list a:hover {
+  color: white;
 }
 
 .gift {
