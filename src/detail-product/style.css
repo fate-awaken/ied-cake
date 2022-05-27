@@ -39,7 +39,7 @@ header {
 }
 
 .nav-bar span a {
-  color: whitesmoke;
+  color: white;
   font-size: 25px;
 }
 
@@ -51,7 +51,6 @@ header {
   font-weight: 500;
   margin-right: 15px;
   padding: 0 5px 0 5px;
-  transition: 0.5s;
 }
 
 .nav-bar a:hover {
@@ -74,7 +73,9 @@ header {
 .product-img img {
   width: 420px;
   border-radius: 20px;
-  box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
+  box-shadow: 4px 4px 10px black;
+  margin-bottom: 10px;
+  animation: fade 1.5s;
 }
 
 .product-img p {
@@ -86,6 +87,7 @@ header {
   font-size: 20px;
   margin: 0 auto;
   padding-top: 10px;
+  animation: fade 1.5s;
 }
 
 .product-desc {
@@ -99,11 +101,14 @@ header {
 .product-desc h2 {
   text-align: center;
   font-size: 32px;
+  animation: fade 2.4s;
 }
 
 .product-desc p {
   font-size: 18px;
   text-align: justify;
+  font-weight: 500;
+  animation: fade 3s;
 }
 
 .product-desc span {
@@ -146,4 +151,14 @@ footer {
 
 .footer-list a:hover {
   color: white;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
 }
