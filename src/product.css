@@ -51,7 +51,6 @@ a {
   font-weight: 500;
   margin-right: 15px;
   padding: 0 5px 0 5px;
-  transition: 0.2s;
 }
 
 .nav-bar a:hover {
@@ -66,6 +65,7 @@ a {
 
 .content h1 {
   margin-top: 40px;
+  animation: fade 0.8s;
 }
 
 .products {
@@ -76,10 +76,21 @@ a {
 .products img {
   width: 280px;
   border-radius: 20px;
+  box-shadow: 4px 4px 10px black;
+  animation: fade 2s;
+  opacity: 85%;
+}
+
+.products img:hover {
+  width: 290px;
+  transition: ease-out 1s;
+  opacity: 100%;
 }
 
 .products p {
   font-size: 24px;
+  font-weight: 600;
+  animation: fade 3s;
 }
 
 footer {
@@ -117,4 +128,14 @@ footer {
 
 .footer-list a:hover {
   color: white;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
 }
