@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.konten {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.konten.kiri {
+    /* position:absolute; */
+    text-align: center;
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.konten.kanan {
+    flex: 1;
+    background-color: yellowgreen;
+    justify-content: center;
+}
+
+.container .konten ul {
+    list-style: none;
+}
+
