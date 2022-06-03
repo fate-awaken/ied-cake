@@ -6,7 +6,11 @@
   }
 
 
-
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 
 
 /* hero */
@@ -43,7 +47,7 @@
     top: 200px;
     display: flex;
     justify-content: center;
-    
+
 }
 .hero .tag h1 {
     margin: 20px 0;
@@ -83,7 +87,7 @@
     mask-image: linear-gradient(90deg, rgb(0, 0, 0), transparent);
     width: 500px;
     height: 300;
-    
+
 }
 
 .content .description {
@@ -93,7 +97,7 @@
     position: absolute;
     right: 500px;
     top: 85px;
-    text-shadow:0 0 1px  rgb(39, 39, 39); 
+    text-shadow:0 0 1px  rgb(39, 39, 39);
 }
 
 /* content-2 */
@@ -129,7 +133,7 @@
     margin: 50px auto;
     width: 1200px;
     justify-content: space-evenly;
-   
+
 }
 
 .def {
@@ -144,7 +148,7 @@
 .def:hover {
     transform: scale(1.1);
     border-radius: 30px;
-    box-shadow: 0 0 20px rgb(88, 88, 88);  
+    box-shadow: 0 0 20px rgb(88, 88, 88);
     background-color: rgb(255, 255, 255)
 }
 
@@ -153,7 +157,7 @@
     height: 215px;
     margin: 20px auto;
     border-radius: 30px;
-  
+
 }
 
 .content-3  .def {
@@ -165,46 +169,55 @@
     margin: 5px 15px;
 }
 
-/* content-4 */
-
-.content-4{
-    margin: 50px auto;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
+/* Footer */
+footer {
+  background-color: #ff7070;
+  font-size: 20px;
+  font-weight: 500;
+  height: 380px;
+  padding: 20px 0 30px 0;
 }
 
-.content-4 .logo img {
-    width: 250px;
+.footer-left,
+.footer-right {
+  display: inline-block;
 }
 
-.content-4 .link {
-    margin: 50px auto;
-    width: 900px;
-    
+.footer-left {
+  float: left;
+  margin-top: 85px;
 }
 
-.content-4 .link .temp {
-    display: flex;
-    margin: 10px auto;
-    align-items: center;
+.footer-right {
+  float: right;
+  margin-top: 60px;
+  margin-right: 50px;
 }
 
-.content-4 .link .temp img {
-    width: 40px;
-    border-radius: 50%;
+.footer-right a {
+  color: rgba(245, 245, 245, 0.699);
+  text-decoration: none;
 }
 
-.content-4 a {
-    text-decoration: none;
-    color: #ff7070;
+.footer-right ul {
+  line-height: 50px;
+  list-style-type: none;
+  text-align: right;
 }
 
+.footer-list a:hover {
+  color: white;
+}
 
 /* responsive */
 
-@media(max-width: 500px){
+@media(max-width: 640px){
+    .container {
+      width: 400px;
+    }
+
     /* hero */
+
     .hero{
         margin: -10px -10;
         width: auto;
@@ -212,13 +225,13 @@
         display: flex;
         position: relative;
     }
-    
+
     .hero .gambar {
         margin:0 0;
         width: auto;
         height: auto;
         position: absolute;
-        }    
+        }
 
         .hero .gambar img {
             margin: 0 auto;
@@ -238,7 +251,7 @@
             top: 150px;
         }
 
-        .hero .tag a { 
+        .hero .tag a {
             top: 6px;
         }
 
@@ -266,34 +279,34 @@
             display: block;
             text-align: center;
             width: auto;
-            text-shadow:0 0 1px  rgb(39, 39, 39); 
+            text-shadow:0 0 1px  rgb(39, 39, 39);
         }
 
         /* content-2 */
 
         .content-2 {
-            margin: 80px auto;
             width: 100%;
+            margin-top: 200px;
         }
-        
-        
+
+
         .content-2 .title {
             margin: 50px auto;
             text-align: center;
         }
-        
+
         .content-2 .access {
             margin: 50px auto;
             display: block;
         }
-        
+
         .content-2 .access p,h4 {
             margin: 15px auto;
             max-width: 300px;
             text-align: center;
         }
 
-       
+
 
         /* content-3*/
 
@@ -301,9 +314,9 @@
             margin: 100px auto;
             width: auto;
             display: block;
-            
-        }   
-        
+
+        }
+
         .def {
             max-width: 350px;
             height: 380px;
@@ -319,36 +332,12 @@
             border-radius: none;
             box-shadow: none;
             background-color: none;
-        }  
+        }
 
         .content-3  .def img {
             width: 300px;
             height: 230px;
             margin: 20px auto;
             border-radius: 10px;
-        }
-        
-        /* content-4*/
-
-        .content-4{
-            display: block;
-            text-align: center;
-            background-color: aquamarine;
-        }
-
-        .content-4.link {
-            margin: 20px auto;
-            background-color: #fff;
-              
-        }
-
-        .content-4.link .temp {
-            margin: 0 auto;
-            width: 100%;       
-        }
-
-        .content-4.link .temp p {
-            width: 20px;
-            background-color: blanchedalmond;
         }
     }
