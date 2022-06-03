@@ -4,22 +4,21 @@
   }
 
   footer {
-    height: 285px;
+    text-align: center;
+    height: auto;
+    display: block;
   }
 
-  .footer-logo img {
-    width: 150px;
-  }
-
-  .footer-list li {
-    font-size: 18px;
-  }
-
-  .footer-left {
+  .footer-left,
+  .footer-right {
+    text-align: center;
+    float: none;
+    display: block;
     margin-top: 30px;
   }
 
-  .footer-right {
-    margin-top: 10px;
+  .footer-right ul {
+    margin-right: 35px;
+    text-align: center;
   }
 }
