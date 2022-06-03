@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  font-size: 20px;
 }
 
 h1 {
@@ -33,7 +34,7 @@ header {
 }
 
 main {
-  height: 500px;
+  padding: 50px 0;
 }
 
 footer {
@@ -42,6 +43,33 @@ footer {
   font-weight: 500;
   height: 380px;
   padding: 20px 0 30px 0;
+}
+
+.btn {
+  background-color: #f7f8fb;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.144);
+  display: inline-block;
+  padding: 18px 24px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+.btn:active {
+  background-color: #9e9e9e;
+}
+
+.btn-wrapper {
+  display: block;
+  text-align: center;
+  margin: 40px auto 30px auto;
+}
+
+.btn-wrapper img {
+  margin: auto 0;
 }
 
 .footer-left,
@@ -115,6 +143,85 @@ footer {
 
 .nav-bar-right a:hover {
   color: white;
+}
+
+#our-products {
+  background-color: #edf2f8;
+  margin: 50px 0;
+  padding: 20px 0 30px 0;
+  width: 100%;
+}
+
+.privilege-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.privilege .container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  text-align: center;
+}
+
+.products {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.products-images {
+  margin: auto 0;
+}
+
+.products img {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.products-text {
+  margin: auto 0;
+}
+
+.products-text a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.products-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nastar,
+.putri-salju {
+  height: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 15px 80px 10px 50px;
+  text-align: left;
+  transition: all 0.5s;
+}
+
+.nastar:hover,
+.putri-salju:hover {
+  background: linear-gradient(120deg, #fff 20%, #ff707067 80%);
+}
+
+.castangle:hover {
+  background: linear-gradient(240deg, #fff 20%, #ff707067 80%);
+}
+
+.castangle {
+  height: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 50px 0;
+  padding: 15px 50px 10px 80px;
+  text-align: right;
+  transition: all 0.5s;
 }
 
 .ramadhan {
