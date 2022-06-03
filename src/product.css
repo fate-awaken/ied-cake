@@ -8,6 +8,7 @@ body {
   font-family: 'Montserrat', monospace, sans-serif;
   color: #F5756B;
   margin: 0 auto;
+  background-color: #edf2f8;
 }
 
 .container {
@@ -71,6 +72,14 @@ a {
 .products {
   display: inline-block;
   margin: 20px 30px 20px 30px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.products:hover {
+  background: linear-gradient(240deg, #fff 20%, #ff707067 80%);
+  transform: 1s;
 }
 
 .products img {
@@ -79,12 +88,6 @@ a {
   box-shadow: 4px 4px 10px black;
   animation: fade 2s;
   opacity: 85%;
-}
-
-.products img:hover {
-  width: 290px;
-  transition: ease-out 1s;
-  opacity: 100%;
 }
 
 .products p {
