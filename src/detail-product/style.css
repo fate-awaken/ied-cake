@@ -24,37 +24,106 @@ header {
   padding: 20px;
 }
 
-.nav-bar {
-  background-color: #ff7070;
+.navBar {
   padding: 15px;
-  overflow: hidden;
-  top: 0;
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.333);
-  line-height: 25px;
+  margin: 0 auto;
 }
 
-.nav-bar span{
+nav {
+  display: flex;
+  background-color: #ff7070;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  z-index: 2;
+
+}
+
+nav .logo {
+  font-size: 30px;
   float: left;
+  margin-left: 20px;
+  z-index: 2;
 }
 
-.nav-bar span a {
-  color: white;
-  font-size: 25px;
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: right;
 }
 
-.nav-bar a {
-  float: right;
-  color: rgba(245, 245, 245, 0.699);
+nav ul li a {
+  color: rgba(245, 245, 245, 0.658);
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin-right: 15px;
-  padding: 0 5px 0 5px;
+  font-size: 0.8em;
+  margin: 0 5px 0 5px;
+  font-size: 22px;
+  margin-right: 20px;
+  z-index: 2;
 }
 
-.nav-bar a:hover {
+nav ul li a:hover {
   color: white;
+}
+
+/* hamburger menu */
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+  margin-right: 20px;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 37px;
+  height: 25px;
+  left: -8px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+.menu-toggle span {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.5s;
+
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2){
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: white;
+  transform: rotate(45deg) translate(2.5px, 0);
+
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: white;
+  transform: rotate(-45deg) translate(2.5px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  transform:scale(0)
 }
 
 .product {

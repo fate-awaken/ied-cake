@@ -7,15 +7,25 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="responsive.css">
 
-<header>
-  <div class="container">
-    <div class="nav-bar">
-      <span><a href="#">IedCake</a></span>
+<div class="navBar">
+  <nav>
+      <div class="logo">
+          <h4>IedCake</h4>
+      </div>
 
-      <a href="#">About Us</a>
-      <a href="../product.html">Products</a>
-    </div>
-</header>
+      <ul>
+          <li><a href="../product.html">Products</a></li>
+          <li><a href="">About Us</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+</div>
 
 <main>
   <div class="container">
@@ -59,4 +69,13 @@
       </div>
     </div>
   </div>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+
+    menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+    });
+  </script>
 </footer>
