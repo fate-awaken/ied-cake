@@ -1,0 +1,253 @@
+@media all and (max-width: 1200px) {
+  .sharing {
+    left: 50%;
+  }
+
+  .products-images img {
+    padding: 15px 0;
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .top-images {
+    visibility: hidden;
+    display: none;
+  }
+
+  .products-images img {
+    padding: 15px 0;
+    width: 92%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .top-wrapper {
+    display: block;
+  }
+
+  .top-images {
+    visibility: hidden;
+    display: none;
+  }
+
+  .products-images img {
+    padding: 15px 0;
+    width: 92%;
+  }
+
+  .top-content .ied-cake {
+    background: linear-gradient(
+      120deg,
+      #ff7070 30%,
+      #fff 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+}
+
+@media all and (max-width: 640px) {
+  body {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  footer {
+    text-align: center;
+    height: auto;
+    display: block;
+  }
+
+  .footer-left,
+  .footer-right {
+    text-align: center;
+    float: none;
+    display: block;
+    margin-top: 30px;
+  }
+
+  .footer-right ul {
+    margin-right: 35px;
+    text-align: center;
+  }
+
+  .top-text {
+    text-align: center;
+  }
+
+  .top-content .ied-cake {
+    background: linear-gradient(
+      120deg,
+      #ff7070 30%,
+      #fff 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+
+  .fa-list {
+    margin-top: 5px;
+    visibility: visible;
+  }
+
+  .fa-list:active {
+    color: white;
+  }
+
+  .nastar,
+  .putri-salju,
+  .castangle {
+    padding: 10px;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .castangle-down {
+    display: none;
+  }
+
+  .castangle-up {
+    display: block;
+  }
+
+  .nav-bar-right {
+    display: none;
+  }
+
+  .privilege-images {
+    text-align: center;
+  }
+
+  .privilege-images img {
+    width: 30%;
+  }
+
+  .privilege-text {
+    font-size: 15px;
+  }
+
+  .products {
+    text-align: center;
+  }
+
+  .products-images img {
+    padding: 15px 0;
+    width: 80%;
+  }
+
+  .top-wrapper {
+    display: block;
+  }
+
+  .top-images {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  footer {
+    text-align: center;
+    height: auto;
+    display: block;
+  }
+
+  .footer-left,
+  .footer-right {
+    text-align: center;
+    float: none;
+    display: block;
+    margin-top: 30px;
+  }
+
+  .footer-right ul {
+    margin-right: 35px;
+    text-align: center;
+  }
+
+  .top-text {
+    text-align: center;
+  }
+
+  .top-content .ied-cake {
+    background: linear-gradient(
+      120deg,
+      #ff7070 30%,
+      #fff 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+
+  .fa-list {
+    margin-top: 5px;
+    visibility: visible;
+  }
+
+  .fa-list:active {
+    color: white;
+  }
+
+  .nastar,
+  .putri-salju,
+  .castangle {
+    padding: 10px;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .castangle-down {
+    display: none;
+  }
+
+  .castangle-up {
+    display: block;
+  }
+
+  .nav-bar-right {
+    display: none;
+  }
+
+  .privilege-images {
+    text-align: center;
+  }
+
+  .privilege-images img {
+    width: 30%;
+  }
+
+  .privilege-text {
+    font-size: 15px;
+  }
+
+  .products {
+    text-align: center;
+  }
+
+  .products-images img {
+    padding: 15px 0;
+    width: 80%;
+  }
+
+  .top-wrapper {
+    display: block;
+  }
+
+  .top-images {
+    visibility: hidden;
+    display: none;
+  }
+}
