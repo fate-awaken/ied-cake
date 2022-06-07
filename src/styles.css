@@ -238,6 +238,14 @@ body{
     text-align: center;
 }
 
+.kualitas,
+.harga,
+.mudah {
+  background-color: #edf2f8;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+}
 
 /* content-3 */
 
@@ -381,10 +389,7 @@ footer {
         }
 
         .content .image img {
-            width: 100%;
             display: none;
-            -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
         }
 
         .content .description {
@@ -401,7 +406,6 @@ footer {
 
         .content-2 {
             width: 100%;
-            margin-top: 200px;
         }
 
 
@@ -424,7 +428,10 @@ footer {
         .kualitas,
         .harga,
         .mudah {
-          background-color: white;
+          background-color: #edf2f8;
+          padding: 15px;
+          margin: 10px;
+          border-radius: 20px;
         }
 
         /* content-3*/
