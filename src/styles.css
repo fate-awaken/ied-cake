@@ -337,6 +337,11 @@ footer {
       max-width: 400px;
     }
 
+    body {
+      overflow-x: hidden;
+      position: relative;
+    }
+
     /* hero */
 
     .hero{
