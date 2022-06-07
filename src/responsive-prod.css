@@ -1,4 +1,9 @@
 @media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+
   .products {
     margin: 20px 0px 20px 0px;
   }

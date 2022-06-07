@@ -39,7 +39,6 @@ nav {
   color: white;
   border-radius: 20px;
   z-index: 2;
-
 }
 
 nav .logo {
@@ -54,6 +53,7 @@ nav ul {
   list-style: none;
   width: 40%;
   justify-content: right;
+  overflow: hidden;
 }
 
 nav ul li a {
