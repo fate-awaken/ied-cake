@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<title>Produk Kue Lebaran Iedcake</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="product.css">
+<link rel="stylesheet" href="responsive-prod.css">
+
+<div class="navBar">
+  <nav>
+    <div class="logo">
+        <h4>IedCake</h4>
+    </div>
+
+    <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="">About Us</a></li>
+    </ul>
+
+    <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+</div>
+
+<main>
+  <div class="container">
+    <div class="content">
+      <h1>Our Products</h1>
+      <div class="products">
+        <a href="detail-product/nastar-cokelat.html"><img src="../images/kue-1.jpg" alt="nastar coklat"></a>
+        <p>Nastar Coklat</p>
+      </div>
+      <div class="products">
+        <a href="detail-product/putri-salju.html"><img src="../images/kue-2.jpg" alt="putri salju"></a>
+        <p>Putri salju</p>
+      </div>
+      <div class="products">
+        <a href="detail-product/kastengel.html"><img src="../images/kue-3.jpg" alt="Kastengel"></a>
+        <p>Kastangel</p>
+      </div>
+      <div class="products">
+        <a href="detail-product/nastar-ori.html"><img src="../images/kue-4.jpg" alt="nastar ori"></a>
+        <p>Nastar Original</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-item">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="../images/icon/ied_cake_logo_white.png" alt="Ied Cake Logo" width="180px">
+        </div>
+      </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-list">
+          <ul>
+            <li><a href="https://github.com/fate-awaken/" target="_blank">Github</a></li>
+            <li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+            <li><a href="https://id.pngtree.com/" target="_blank">PNGTree</a></li>
+            <li><a href="https://www.instagram.com/iedcakeshop/?hl=en" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+
+    menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+    });
+  </script>
+</footer>

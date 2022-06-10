@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<title>Kue Putri Salju</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+<div class="navBar">
+  <nav>
+      <div class="logo">
+          <h4>IedCake</h4>
+      </div>
+
+      <ul>
+          <li><a href="../product.html">Products</a></li>
+          <li><a href="">About Us</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+</div>
+
+<main>
+  <div class="container">
+    <div class="product">
+      <div class="product-img">
+        <img src="../../images/kue-2.jpg" alt="putri-salju">
+        <p>Harga : Rp. 56.000</p>
+      </div>
+
+      <div class="product-desc">
+        <h2>Putri Salju</h2>
+        <p>
+          <span>Putri Salju</span> adalah sebuah kue yang hampir selalu ada saat momen lebaran, dengan tampilan yang khas menambah kentalnya suasana hari raya.
+          <br><br>
+          <span>Putri Salju</span> adalah kue yang biasanya berbentuk bulan sabit yang di taburi oleh gula bubuk, rasa yang manis selalu menjadi favorit keluarga di Hari Raya.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</main>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-item">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="../../images/icon/ied_cake_logo_white.png" alt="Ied Cake Logo" width="180px">
+        </div>
+      </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-list">
+          <ul>
+            <li><a href="https://github.com/fate-awaken/" target="_blank">Github</a></li>
+            <li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+            <li><a href="https://id.pngtree.com/" target="_blank">PNGTree</a></li>
+            <li><a href="https://www.instagram.com/iedcakeshop/?hl=en" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+
+    menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+    });
+  </script>
+</footer>
