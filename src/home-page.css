@@ -44,6 +44,12 @@ h1 {
 
 a {
   text-decoration: none;
+  color: #ff7070;
+}
+
+a:visited {
+  text-decoration: none;
+  color: none;
 }
 
 .clear {
