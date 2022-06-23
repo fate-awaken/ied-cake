@@ -10,9 +10,6 @@ there are several product:
 - Nastar
 - Castangle
 - Putri Salju
-- Biji Ketapang
-- Brown Cheese
-- Lidah Kucing
 
 ## Team Members
 - Solahudin Al Malibari **10210090**
