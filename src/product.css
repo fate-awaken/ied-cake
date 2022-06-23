@@ -1,14 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Poppins:wght@200&display=swap%27');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Poppins:wght@200&display=swap%27");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Montserrat', monospace, sans-serif;
-  color: #F5756B;
+  font-family: "Montserrat", monospace, sans-serif;
+  color: #f5756b;
   margin: 0 auto;
   background-color: #edf2f8;
+}
+
+body::-webkit-scrollbar-track {
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 107, 88);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 
 .container {
@@ -94,7 +118,6 @@ nav ul li a:hover {
   z-index: 2;
 }
 
-
 .menu-toggle span {
   display: block;
   width: 20px;
@@ -102,11 +125,10 @@ nav ul li a:hover {
   background-color: white;
   border-radius: 3px;
   transition: all 0.5s;
-
 }
 
 /* hamburger menu animation */
-.menu-toggle span:nth-child(2){
+.menu-toggle span:nth-child(2) {
   transform-origin: 0 0;
 }
 
@@ -117,7 +139,6 @@ nav ul li a:hover {
 .menu-toggle input:checked ~ span:nth-child(2) {
   background-color: white;
   transform: rotate(45deg) translate(2.5px, 0);
-
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {
@@ -126,7 +147,7 @@ nav ul li a:hover {
 }
 
 .menu-toggle input:checked ~ span:nth-child(3) {
-  transform:scale(0)
+  transform: scale(0);
 }
 
 .content {
@@ -206,10 +227,10 @@ footer {
 
 @keyframes fade {
   from {
-      opacity: 0;
+    opacity: 0;
   }
 
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
