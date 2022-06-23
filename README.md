@@ -7,9 +7,10 @@ IedCake is a shop that sells various kinds of cakes to enliven the Eid atmospher
 
 ## Product
 there are several product:
-- Nastar
+- Nastar Coklat
 - Castangle
 - Putri Salju
+- Nastar Original
 
 ## Team Members
 - Solahudin Al Malibari **10210090**
